@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <script>
+    function check() {
+      var ageInput = prompt("Enter your age:");
+      var age = parseInt(ageInput);
+
+      var message;
+
+      if (age < 18) {
+        message = "You are a minor.";
+      } else if (age >= 18 && age <= 65) {
+        message = "You are an adult.";
+      } else {
+        message = "You are a senior citizen.";
+      }
+
+      alert(message);
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Age Checker</h1>
+
+  <button onclick="check()">Check</button>
+</body>
+
+</html>

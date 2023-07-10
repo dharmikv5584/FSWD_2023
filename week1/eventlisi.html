@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Button with Click Event Listener</title>
+</head>
+
+<body>
+    <h1>Button with Click Event Listener</h1>
+    <button id="myButton">Click Me!</button>
+    <script>
+        // Add an event listener to the button.
+        const myButton = document.getElementById("myButton");
+        myButton.addEventListener("click", function () {
+            // Change the text of the button.
+            myButton.innerHTML = "I've been clicked!";
+        });
+    </script>
+</body>
+
+</html>
