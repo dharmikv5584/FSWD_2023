@@ -25,9 +25,9 @@ function askEmployeeInfo() {
             age: parseInt(age),
             department: department
           };
-
+          
           // Add the employee to the array
-          employees.push(employee);
+          employees.push(employe);
 
           // Ask for the next employee information
           askEmployeeInfo();
