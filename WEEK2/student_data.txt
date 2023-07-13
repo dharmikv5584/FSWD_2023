@@ -1,0 +1,8 @@
+John Doe,8
+Jane Doe,9
+Mary Smith,7
+Michael Anderson,6
+Mark Manson,8.5
+Michelle Adams,9.2
+Mason Cooper,7.5
+Maxwell Allen,7.8
